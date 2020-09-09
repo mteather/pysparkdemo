@@ -1,11 +1,11 @@
-# Test project to use PySpark to transform a nested JSON file into a flat CSV file
-
-A test project to transform nested JSON data into a flattened CSV format.
+# Test project to use pyspark to transform a nested JSON file into a flat CSV file
 
 
 ## Input
 
 This test project uses the following JSON input data (test-input.json):
+
+`
 
 {
 	"id": "1",
@@ -32,14 +32,19 @@ This test project uses the following JSON input data (test-input.json):
 	]
 }
 
+`
+
 
 ## Output
 
 The goal is to produce CSV data in the following format:
 
+`
+
 id,extendedAttributeIds,extendedAttributeAttributeIds,extendedAttributeTexts,extendedAttributeListItemIds,extendedAttributeListItemCustomIds
 1, "2,5", "3,6", "KNO315189A,NWISMD", "4,7", "DLDQC,< - less than"
 
+`
 
 ## Install
 
