@@ -5,7 +5,7 @@
 
 This test project uses the following JSON input data (test-input.json):
 
-`
+```
 
 {
 	"id": "1",
@@ -32,19 +32,19 @@ This test project uses the following JSON input data (test-input.json):
 	]
 }
 
-`
+```
 
 
 ## Output
 
 The goal is to produce CSV data in the following format:
 
-`
+```
 
 id,extendedAttributeIds,extendedAttributeAttributeIds,extendedAttributeTexts,extendedAttributeListItemIds,extendedAttributeListItemCustomIds
 1, "2,5", "3,6", "KNO315189A,NWISMD", "4,7", "DLDQC,< - less than"
 
-`
+```
 
 ## Install
 
