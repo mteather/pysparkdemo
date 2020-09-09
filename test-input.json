@@ -1,0 +1,26 @@
+{
+	"id": "1",
+	"extendedAttributes":
+	[
+		{
+			"id": "2",
+			"attributeId": "3",
+			"text": "KNO315189A",
+			"dropDownListItem":
+				{
+					"id": "4",
+					"customId": "DLDQC"
+				}
+		},
+		{
+			"id": "5",
+			"attributeId": "6",
+			"text": "NWISMD",
+			"dropDownListItem":
+				{
+					"id": "7",
+					"customId": "< - less than"
+				}
+		}
+	]
+}
